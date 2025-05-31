@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Curso: Introdução à Internet</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Curso de Introdução à Internet</h1>
+    <a href="index.html">← Voltar</a>
+  </header>
+  <main>
+    <p>Aprenda como funciona a internet, o que é um navegador, como usar motores de busca como o Google e como acessar sites com segurança.</p>
+    <ul>
+      <li>
+        <button onclick="mostrarVideo('video1')">O que é a Internet?</button>
+        <div id="video1" class="video-container" style="display:none; margin-top: 10px;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/nlO5hySqJFA?si=OyW2p5C85sV_Mmuz"
+            title="YouTube video player" frameborder="0"
+            allowfullscreen></iframe>
+        </div>
+      </li>
+      <li>
+        <button onclick="mostrarVideo('video2')">Como usar um navegador</button>
+        <div id="video2" class="video-container" style="display:none; margin-top: 10px;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/yQM4ewdDHJA?si=qndSnslD1cVcHEah"
+            title="YouTube video player" frameborder="0"
+            allowfullscreen></iframe>
+        </div>
+      </li>
+      <li>
+        <button onclick="mostrarVideo('video3')">Buscando informações no Google</button>
+        <div id="video3" class="video-container" style="display:none; margin-top: 10px;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/beupOadeM6c?si=jJxtl2YuwVrZS4b5"
+            title="YouTube video player" frameborder="0"
+            allowfullscreen></iframe>
+        </div>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
